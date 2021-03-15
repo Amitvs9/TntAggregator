@@ -1,22 +1,21 @@
 # TntAssignement
 
-How to run
-If you have docker installed and, you do not need to be super user to run docker command simply run the following command
+# How to run
+ If you have docker installed and, you do not need to be super user to run docker command simply run the following command  
+  ./run.sh
 
-./run.sh
-
-If you do not have docker installed, run the following commands in the provided order:
+ If you do not have docker installed, run the following commands in the provided order:
 
 ./mvn clean install
 java -jar target/target/tntAggregator-0.0.1-SNAPSHOT.jar
 
 
-How to stop
-If you run the application with docker then simply run following command:
+# How to stop
+  If you run the application with docker then simply run following command:
 
-./stop.sh
+  ./stop.sh
 
-Aggregator endpoint.
+# Aggregator endpoint.
 /http://localhost:port/aggregation?pricing=&track=&shipments=
 
 # Tech Stack used
@@ -24,7 +23,7 @@ Java 8
 spring-boot
 maven
 
-# improvement that can be done but due to time not done.
+# improvement that can be done but due to lack of time not done.
   There are some reducndent code that can be optimize .
   Junit test cases .
 
